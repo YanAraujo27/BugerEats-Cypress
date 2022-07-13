@@ -21,7 +21,7 @@ describe('Cadastro', ()=>{
             cidade_uf:'Guarulhos/SP'
         },
         metodo_entrega: 'Van/Carro',
-        cnh: 'cnh-digital.jpg'
+        cnh: 'images/cnh-digital.jpg'
 
     }
     
@@ -44,5 +44,10 @@ describe('Cadastro', ()=>{
 
 
     cy.get('.dropzone input[accept^="image"]').attachFile(entregador.cnh)
+
+    cy.get('form button[type="submit"]').click()
+
+    const expecteMessage = 'Recebemos os seus dados. Fique de olho na sua caixa de email, pois e em breve retornamos o contato.'
+    cy.get('.swal2-container [class="swal2-html-container"]').should('have.text', expecteMessage)
 })  
 })
