@@ -1,0 +1,59 @@
+{
+    "signup":{
+        "name": "Yan Vitor",
+        "cpf": "00000000054",
+        "email": "yan@gmail.com",
+        "whatsapp": "11988487528",
+        "address": {
+        "postalcode":"07181020",
+        "steet":"Rua Segundo-Tenente Naylor Correia de Martins Mendes",
+        "adNumber":"200",
+        "complement":"Casa Verde",
+        "district":"Cidade Jardim Cumbica",
+        "cityUf":"Guarulhos/SP"
+    },
+
+    "metodo_entrega": "Van/Carro",
+    "cnh": "images/cnh-digital.jpg"
+
+
+    },
+
+    "cpfInvalid": {
+        "name": "Michelle",
+        "cpf": "00000000054222a",
+        "email": "michelle@gmail.com",
+        "whatsapp": "11988487528",
+        "address": {
+        "postalcode":"07181020",
+        "steet":"Rua Segundo-Tenente Naylor Correia de Martins Mendes",
+        "adNumber":"200",
+        "complement":"Casa Verde",
+        "district":"Cidade Jardim Cumbica",
+        "cityUf":"Guarulhos/SP"
+    },
+
+    "metodo_entrega": "Bicicleta",
+    "cnh": "images/cnh-digital.jpg"
+    },
+
+    "emailInvalid":{
+        "name": "Yan Vitor",
+        "cpf": "00000000054",
+        "email": "yangmil.com",
+        "whatsapp": "11988487528",
+        "address": {
+        "postalcode":"07181020",
+        "steet":"Rua Segundo-Tenente Naylor Correia de Martins Mendes",
+        "adNumber":"200",
+        "complement":"Casa Verde",
+        "district":"Cidade Jardim Cumbica",
+        "cityUf":"Guarulhos/SP"
+    },
+
+    "metodo_entrega": "Van/Carro",
+    "cnh": "images/cnh-digital.jpg"
+
+
+    }
+}
